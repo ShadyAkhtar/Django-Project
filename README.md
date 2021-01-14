@@ -15,8 +15,6 @@ we also defines block in base.html and use it in other pages. It is the concept 
 
 > For further more steps refer guide.md
 
-## Screenshots
-
 ## Screnshots
 
 - Home Page
@@ -29,7 +27,7 @@ we also defines block in base.html and use it in other pages. It is the concept 
 ![Contact Form Submission](static/screenshots/contact-form-submission.jpeg?raw=true "Contact Form Submission")
 
 - Contact Form Success Alert
-![Contact Form Success(static/screenshots/contact-success.jpeg?raw=true "Contact Form Success")
+![Contact Form Success](static/screenshots/contact-success.jpeg?raw=true "Contact Form Success")
 
 - Confirming Data in Database
 ![sqlite3](static/screenshots/checking-database-entry.jpeg?raw=true "Confirming Data in Database")
