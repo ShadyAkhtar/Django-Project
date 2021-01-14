@@ -11,13 +11,25 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/static/pic1.jpg" class="d-block w-100" alt="...">
+      <img src="/static/pic1.jpg" class="d-block w-100" alt="Natural & Fruit-n-Nuts Ice Cream">
+      <div class="carousel-caption d-none d-md-block">
+      <h5 class="text-dark">Natural & Fruit-n-Nuts Ice Cream</h5>
+        <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
     </div>
     <div class="carousel-item">
-      <img src="/static/pic2.jpg" class="d-block w-100" alt="...">
+      <img src="/static/pic2.jpg" class="d-block w-100" alt="Cone and waffle Ice Cream">
+      <div class="carousel-caption d-none d-md-block">
+      <h5>Cone and waffle Ice Cream</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
     </div>
     <div class="carousel-item">
-      <img src="/static/pic3.jpg" class="d-block w-100" alt="...">
+      <img src="/static/pic3.jpg" class="d-block w-100" alt="Cup Ice Cream">
+      <div class="carousel-caption d-none d-md-block">
+      <h5>Cup Ice Cream</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
@@ -28,5 +40,73 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </a>
+</div>
+
+{% comment %} Ice Cream Variety {% endcomment %}
+<div class="container my-3">
+  <h1 class="text-center my-2">Different Varieties of Ice Cream</h1>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 my-2">
+    <div class="col">
+      <div class="card variety shadow-sm">
+        <img src="/static/ice-1.jpg" alt="Rolled Ice Cream">
+        <div class="card-body">
+          <h3>Rolled Ice Cream</h3>
+          <p class="card-text">A fascinating concept to most, rolled-up strips of ice cream is actually a very
+            common street food in Thailand, Malaysia, Cambodia, and the Philippines.
+          </p>
+            <button type="button" class="btn btn-primary mb-3">Order Now</button>
+          <!-- <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card variety shadow-sm">
+        <img src="/static/ice-2.jpg" alt="Soft Serve">
+
+        <div class="card-body">
+          <h3>Soft Serve</h3>
+          <p class="card-text">A summertime classic in the U.S., soft-serve was first created way back in the
+            1930s. It gets its super-smooth texture from air that's introduced as the ingredients are
+            frozen.</p>
+              <button type="button" class="btn btn-primary mb-3">Order Now</button>
+          <!-- <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card variety shadow-sm">
+        <img src="/static/ice-3.jpg" alt="Mumbai Kulfi">
+
+        <div class="card-body">
+          <h3>Mumbai Kulfi</h3>
+          <p class="card-text">Kulfi or Qulfi is a frozen dairy dessert originating in the Indian subcontinent in the
+            16th century. It is often described as "traditional Indian ice cream"</p>
+              <button type="button" class="btn btn-primary mb-3">Order Now</button>
+          <!-- <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                    </div> -->
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
 </div>
 {% endblock body %}

@@ -4,7 +4,43 @@
 }
 
 .carousel-item img{
-    height: 80vh;
+    height: 60vh;
     width: auto;
     object-fit: cover;
+}
+
+.variety img{
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+}
+
+.contact{
+    height: 40vh;
+    background: url('/static/contact.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    /* object-fit: fill; */
+}
+
+.contact-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh ;
+}
+
+.contact-form{
+    width: 60vw;
+}
+
+.copy-footer{
+    background: rgb(21, 19, 143) !important;
+}
+.copy-footer p a{
+    color: aliceblue;
+    text-decoration: none;
 }
